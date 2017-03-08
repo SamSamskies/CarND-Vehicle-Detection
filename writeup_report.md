@@ -45,7 +45,7 @@ I trained a linear SVM using `YCrCb` color space and HOG parameters of `orientat
 
 ####1. Describe how (see seventh code cell in `vehicle_detection.py`) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
 
-I searched in the bottom half of the image below the horizon and above the car hood. To decide on the scales on overlap values and just ran many experiments on the test images to get a feel what worked well.
+I searched in the bottom half of the image below the horizon and above the car hood. To decide on the scales and overlap values I ran many experiments on the test images to get a feel what worked well.
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
