@@ -77,6 +77,6 @@ Here's a [link to my video result](./final_video.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-I took a naive approach to solve this problem because of time constraints. I didn't keep track of the positive detections from frame to frame, so I used a many scales and a high threshold to try and filter out false positives. The downside to this naive approach is that it is not very trustworthy and it's slow to process each frame. My pipeline will probably fail in most condition besides optimum conditions such as the one in the video I used for testing.
+I took a naive approach to solving this problem because of time constraints. I didn't keep track of the positive detections from frame to frame, so I used many scales and a high threshold to try and filter out false positives. The downside to this naive approach is that it is not very trustworthy and it's slow to process each frame. My pipeline will probably fail in most condition besides optimum conditions such as the one in the video I used for testing.
 
 When I have more time, I plan to come back to this project and keep track of detections from frame to frame to filter out false positives and make better predictions about the next frame. I'd also like to experiment with using deep learning techniques to build my classifier.
